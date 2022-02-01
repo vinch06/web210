@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Svetlana Bukanova-Web Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <h1>Svetlana Bukanova</h1>
-        <h2>Web Developer</h2>
+        <div class="content_wrap">
+          <h1>Svetlana Bukanova</h1>
+          <h2>Web Developer</h2>
 
-        <p>Exceptionally creative and dependable Entry Level Web Developer with a stellar customer service record and superb work ethic. Broadly and deeply knowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction and maintenance. Highly adept at conveying complex technical information to a variety of professional and lay audiences in a clear and understandable manner.</p>
-        <p>Add another paragraph if needed.</p>
+          <p>Exceptionally creative and dependable Entry Level Web Developer with a stellar customer service record and superb work ethic. Broadly and deeply knowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction and maintenance. Highly adept at conveying complex technical information to a variety of professional and lay audiences in a clear and understandable manner.</p>
+          <p>Add another paragraph if needed.</p>
+        </div>
+
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
@@ -23,77 +32,96 @@
         <p>View selected projects below. More information can be found at <a href="#">example.com</a>.</p>
 
         <!-- Copy the whole <section> block to add more projects. -->
-        <div class="box_for_projects">
-          <section>
-            <h3>Project Name: Vicious Cycle</h3>
-            <img src="images/Vicious Cycle.png" alt="to add description of image">
-            <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-            <a href="https://wcet3.waketech.edu/sbukanova/WEB140/lesson13/ProjectFinal1/Project/index.html" target="_blank">View project</a>
-          </section>
-          <section>
-            <h3>Project Name: Cycling Event Landing Page</h3>
-            <img src="images/event.png" alt="to add description of image">
-            <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-            <a href="https://wcet3.waketech.edu/sbukanova/WEB110/Lesson15/Landing/index.html" target="_blank">View project</a>
-          </section>
-          <section>
-            <h3>Project Name: CookingTime - Mobile App </h3>
-            <img src="images/cookingtime.png" alt="to add description of image">
-            <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-            <a href="https://wcet3.waketech.edu/sbukanova/WEB125/FinalProject_WEB125/index.html" target="_blank">View project</a>
-          </section>
+        <div class="content_wrap">
+
+            <section class="box_for_projects">
+              <img src="images/Vicious Cycle.png" alt="to add description of image">
+              <div class="box_for_discr">
+                <h3>Project Name: Vicious Cycle</h3>
+                <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+                <a  class="btn" href="https://wcet3.waketech.edu/sbukanova/WEB140/lesson13/ProjectFinal1/Project/index.html" target="_blank">View project</a>
+              </div>
+            </section>
+            <section class="box_for_projects">
+              <img src="images/event.png" alt="to add description of image">
+              <div class="box_for_discr">
+                <h3>Project Name: Cycling Event Landing Page</h3>
+                <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+                <a class="btn" href="https://wcet3.waketech.edu/sbukanova/WEB110/Lesson15/Landing/index.html" target="_blank">View project</a>
+              </div>
+            </section>
+            <section class="box_for_projects">
+              <img src="images/cookingtime.png" alt="to add description of image">
+              <div class="box_for_discr">
+                <h3>Project Name: CookingTime - Mobile App </h3>
+                <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+                <a class="btn" href="https://wcet3.waketech.edu/sbukanova/WEB125/FinalProject_WEB125/index.html" target="_blank">View project</a>
+              </div>
+            </section>
+
         </div>
+
 
         <!-- End of Project block. -->
       </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work">
-        <h2>Work Experience</h2>
-        <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+        <div class="content_wrap">
 
-        <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>Web Developer - Intern</h3>
-          <p>AYZ</p>
-          <p>6/1/2019 – 8/1/2019</p>
-          <p>Job summary goes here. Add as many paragraphs as you need.</p>
-          <p>Responsibilities:</p>
-          <ul>
-            <li>Maintain and update HTML/CSS templates on a regular basis and as required.</li>
-            <li>Conduct layout design and construction for a variety of websites as assigned.</li>
-            <li>Provide technical support to other web design team members as directed..</li>
-            <li>Responsible for...</li>
-          </ul>
-        </section>
-        <!-- End of Job block. -->
+            <h2>Work Experience</h2>
+            <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+
+            <!-- Copy this whole <section> block to add more jobs. -->
+            <section>
+              <h3>Web Developer - Intern</h3>
+              <p>AYZ</p>
+              <p>6/1/2019 – 8/1/2019</p>
+              <p>Job summary goes here. Add as many paragraphs as you need.</p>
+              <p>Responsibilities:</p>
+              <ul>
+                <li>Maintain and update HTML/CSS templates on a regular basis and as required.</li>
+                <li>Conduct layout design and construction for a variety of websites as assigned.</li>
+                <li>Provide technical support to other web design team members as directed..</li>
+                <li>Responsible for...</li>
+              </ul>
+            </section>
+            <!-- End of Job block. -->
+
+        </div>
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section class="education">
-        <h2>Education</h2>
+        <div class="content_wrap">
+          <h2>Education</h2>
 
-        <!-- Copy this whole <section> block to add more schools. -->
-        <section>
-          <h3>Wake Tech Community College - Raleigh NC</h3>
-          <p>Web Development AAS, 2022</p>
-          <p>Summary or accomplishments.</p>
-        </section>
-        <!-- End of School block. -->
+          <!-- Copy this whole <section> block to add more schools. -->
+          <section>
+            <h3>Wake Tech Community College - Raleigh NC</h3>
+            <p>Web Development AAS, 2022</p>
+            <p>Summary or accomplishments.</p>
+          </section>
+          <!-- End of School block. -->
+        </div>
+
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer class="contact">
-        <h2>Let's Keep in Touch!</h2>
+        <div class="content_wrap">
+          <h2>Let's Keep in Touch!</h2>
 
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
-          <li class="test"><a href="mailto:email@example.com">email@example.com</a></li>
-          <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-          <li><a href="#" target="_blank">Twitter</a></li>
-          <li><a href="#" target="_blank">LinkedIn</a></li>
-          <li><a href="#" target="_blank">Facebook</a></li>
-        </ul>
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul>
+            <li class="test"><a href="mailto:email@example.com">sbukanova@my.waketech.edu</a></li>
+            <li><a href="http://yourwebsite.com" target="_blank">mywebsite.com</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/svetlana-bukanova-a8849a1b9/" target="_blank">LinkedIn</a></li>
+            <li><a href="#" target="_blank">Facebook</a></li>
+          </ul>
+        </div>
+
       </footer>
     </main>
   </body>
